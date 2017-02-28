@@ -11,7 +11,7 @@
 
   },
 "scripts": {
-    "start": "node app.js"
+    "start": "app.js"
 },
   "author": "Gopinath Kaliappan",
   "license": "ISC"
