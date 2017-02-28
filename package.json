@@ -2,14 +2,14 @@
   "name": "annamserver",
   "version": "1.0.0",
   "description": "Share Food , Share Love",
-  "main": "server.js",
+  "main": "app.js",
   "dependencies": {
     "express": "*",
     "body-parser": "*",
     "mongoose": "*"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "author": "Gopinath Kaliappan",
   "license": "ISC",
