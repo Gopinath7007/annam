@@ -1,0 +1,18 @@
+{
+  "name": "annamserver",
+  "version": "1.0.0",
+  "description": "Share Food , Share Love",
+  "main": "app",
+
+  "dependencies": {
+    "express":"*",
+    "body-parser":"*",
+    "mongoose":"*"
+
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gopinath Kaliappan",
+  "license": "ISC"
+}
