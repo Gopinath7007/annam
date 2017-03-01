@@ -8,7 +8,7 @@ var Users = require('./models/annam/users');
 var Foods = require('./models/annam/food');
 
 //mongoose.connect("mongodb://localhost/jjj");
-mongoose.connect('mongodb://Gopinath:Gopi$vicky1@ds027896.mlab.com:27896/jjj');
+  mongoose.connect('mongodb://Gopinath:Gopi$vicky1@ds027896.mlab.com:27896/jjj');
 var db= mongoose.connection;
 app.get('/',function (req,res) {
     res.send('Hello Working');

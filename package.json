@@ -8,9 +8,15 @@
     "body-parser": "*",
     "mongoose": "*"
   },
+<<<<<<< HEAD
   "scripts": {
     "start": "node app.js"
   },
+=======
+"scripts": {
+    "start": "app.js"
+},
+>>>>>>> e1c194dce704ec89636fd992378e3a255b342fde
   "author": "Gopinath Kaliappan",
   "license": "ISC",
   "devDependencies": {},

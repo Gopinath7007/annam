@@ -44,6 +44,7 @@ module.exports.addFood=function(food,callback) {
     Foods.create(food,callback);
 }
 module.exports.getFood=function(callback,limit) {
+    limit= parseInt(limit);
     Foods.find(callback).skip(limit).limit(5);
 }
 
